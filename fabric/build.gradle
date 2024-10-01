@@ -15,6 +15,7 @@ dependencies {
     implementation project(":common")
 
     modImplementation "curse.maven:monolib-968432:5443112"
+    modImplementation "curse.maven:more-beautiful-torches-860325:5263631"
 }
 
 loom {

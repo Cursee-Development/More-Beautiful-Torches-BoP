@@ -28,7 +28,8 @@
         "fabric": "*",
         "minecraft": "*",
         "java": ">=17",
-        "monolib": ">=1.3.0"
+        "monolib": ">=1.3.0",
+        "more_beautiful_torches": ">=2.4.0"
     },
     "suggests": {
         "another-mod": "*"
