@@ -1,6 +1,6 @@
-package com.cursee.examplemod.platform;
+package com.cursee.more_beautiful_torches_bop.platform;
 
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.cursee.more_beautiful_torches_bop.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

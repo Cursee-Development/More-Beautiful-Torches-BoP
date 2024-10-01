@@ -1,4 +1,4 @@
-package com.cursee.examplemod.platform.services;
+package com.cursee.more_beautiful_torches_bop.platform.services;
 
 public interface IPlatformHelper {
 

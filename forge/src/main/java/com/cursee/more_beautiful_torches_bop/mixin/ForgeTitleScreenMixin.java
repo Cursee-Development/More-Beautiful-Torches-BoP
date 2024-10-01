@@ -1,7 +1,7 @@
-package com.cursee.examplemod.mixin;
+package com.cursee.more_beautiful_torches_bop.mixin;
 
-import com.cursee.examplemod.Constants;
-import com.cursee.examplemod.platform.Services;
+import com.cursee.more_beautiful_torches_bop.Constants;
+import com.cursee.more_beautiful_torches_bop.platform.Services;
 import com.cursee.monolib.core.MonoLibConfiguration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.TitleScreen;
@@ -11,8 +11,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-public class FabricTitleScreenMixin {
-    
+public class ForgeTitleScreenMixin {
+
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
 

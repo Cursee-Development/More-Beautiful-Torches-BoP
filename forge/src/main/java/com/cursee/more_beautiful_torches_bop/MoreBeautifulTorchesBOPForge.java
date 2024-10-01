@@ -1,17 +1,17 @@
-package com.cursee.examplemod;
+package com.cursee.more_beautiful_torches_bop;
 
 import com.cursee.monolib.core.MonoLibConfiguration;
 import com.cursee.monolib.core.sailing.Sailing;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(Constants.MOD_ID)
-public class ExampleModForge {
+public class MoreBeautifulTorchesBOPForge {
     
-    public ExampleModForge() {
+    public MoreBeautifulTorchesBOPForge() {
     
-        ExampleMod.init();
+        MoreBeautifulTorchesBOP.init();
         Sailing.register(Constants.MOD_NAME, Constants.MOD_ID, Constants.MOD_VERSION, Constants.MC_VERSION_RAW, Constants.PUBLISHER_AUTHOR, Constants.PRIMARY_CURSEFORGE_MODRINTH);
 
-        ExampleMod.debugCommon = MonoLibConfiguration.debugging;
+        MoreBeautifulTorchesBOP.debugCommon = MonoLibConfiguration.debugging;
     }
 }

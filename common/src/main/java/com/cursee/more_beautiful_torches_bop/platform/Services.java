@@ -1,7 +1,7 @@
-package com.cursee.examplemod.platform;
+package com.cursee.more_beautiful_torches_bop.platform;
 
-import com.cursee.examplemod.Constants;
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.cursee.more_beautiful_torches_bop.Constants;
+import com.cursee.more_beautiful_torches_bop.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
